@@ -1,0 +1,9 @@
+jumpPads:
+- ==: JumpPad
+  name: example_jump_pad
+  posX: -10.0
+  posY: 3.0
+  posZ: -10.0
+  velX: 1.0
+  velY: 1.0
+  velZ: 1.0

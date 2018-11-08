@@ -1,0 +1,21 @@
+name: DragArea
+version: 1.0.0
+auto: Salt
+description: Areas with drag
+main: salt.bukkit.dragarea.DragArea
+commands:
+   jumpPad:
+      permission: dragarea.jumppad
+      permission-message: You don't have dragarea.jumppad
+      description: /jumpPad add / edit / remove jump pad
+      usage: /jumpPad [add | edit | remove] [name] [positon] [velocity]
+   dragArea:
+      permission: dragarea.dragarea
+      permission-message: You don't have dragarea.dragarea
+      description: /dragArea add / edit / remove drag area
+      usage: /dragArea [add | edit | remove] [name] [positon] [velocity]
+   swirlArea:
+      permission: dragarea.swirlarea
+      permission-message: You don't have dragarea.swirlarea
+      description: /swirlArea add / edit / remove swirl area
+      usage: /swirlArea [add | edit | remove] [name] [centerX] [centerZ] [velocity]
